@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dukaandar</title>
+	<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	<div class="container">
+	<header>
+    <div class="primary_header">
+      <a href="ayan.html"><h1 class="title"> Wajid Pedi Account</h1></a>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <div class="navbar">
+  
+  <div class="dropdown">
+    <button class="dropbtn">Master 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+		 <i class="fa fa-caret-down"></i>
+      <a href="dukaandar.html">Add Dukandar</a>
+      <a href="#">Add Bepari</a>
+      <a href="#">Add Gawal</a>
+    </div>
+	  
+  </div> 
+		  <a href="balance.php">Balance</a>
+  <a href="#news">Reports</a>
+<a href="search.php">Search</a>
+  <a href="#amount">Amount</a>
+</div>
+		
+    </nav>
+  </header>
+	<h1> Dukaandar Details</h1>
+	<form action="connect.php" method="post">
+  
+<label> Firstname </label>         
+<input type="text" id="fname" placeholder="Enter Name" name="firstname" size="15"/>&nbsp;
+<label> Lastname: </label>         
+<input type="text" id="lname" placeholder="Enter Surname" name="lastname" size="15"/> <br> <br>  
+  
+<label>
+Phone :  
+</label>   
+<input type="number" name="phone" size="10"/> <br> <br>  
+ 
+<label>   
+Opening Balance:   
+</label><input type="text" name="balance" placeholder="Ex. 123456789" size="20"/> <br> <br>	
+		
+<input type="submit" value="Submit"/>
+</form>  
+		</div>
+</body>
+</html>
